@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+.container {
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+.header {
+    width: 380px;
+    height: 200px;
+    background-image: url('plasmodium image.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+.clear i:hover {
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+#date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+.main_content {
+    width: 380px;
+    height: 350px;
+    max-height: 350px;
+    background-color: #fff;
+    font-size: 25px;
+    overflow: auto;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+.content ul {
+    padding: 0;
+    margin: 0;
+}
+.item {
+    height: 45px;
+    min-height: 45px;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co {
+    position: absolute;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.item i.co:hover {
+    cursor: pointer;
+}
+.far fa-circle {
+    color: #6eb200;
+}
+.item p.text {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    left: 50px;
+}
+.add-item i{
+    position: absolute;
+    font-size: 40px;
+    color: #4162f6;
+}
+.add-item input {
+    position: absolute;
+    /*left: 10px;*/
+    width: 310px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    /*padding-left: 10px;*/
+
+}
+.add-item input::-webkit-input-placeholder {
+    color: #4163f6;
+    font-size: 20px;
+}
